@@ -1,0 +1,9 @@
+(*
+ * Author: Ted Segal
+ * Date: 11/17/2016
+ * Assignment: ML Homework
+ *)
+
+fun flip (x::xs) (y::ys) = x::y::flip xs ys;
+
+flip[1,2,3,4,5,6];
